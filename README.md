@@ -27,8 +27,9 @@ heart_rate
 
 The original dataset does not include a timestamp column. Since Spark Structured Streaming window operations require an event-time column, synthetic timestamps were generated in create_batches.py.
 
-Project Structure
+## Project Structure
 
+```text
 streaming_job.py                  Main Spark Structured Streaming job
 create_batches.py                 Simulates streaming by writing CSV batches
 requirements.txt                  Dependencies
